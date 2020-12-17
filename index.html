@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <!-- Scripts para el manejo de AR -->
+  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+  <!-- Scripts para el manejo de eventos -->
+  <!-- <script src="./scripts/main.js"></script> -->
+  <!-- Diseño de la escena -->
+  <body style="margin : 0px; overflow: hidden;">
+    <a-scene embedded renderer="logarithmicDepthBuffer: true;" vr-mode-ui="enabled: false" arjs='sourceType: webcam; detectionMode: mono_and_matrix; matrixCodeType: 3x3; debugUIEnabled: false;'>
+        <!-- Fuentes de modelos -->
+        <a-assets>
+            <a-asset-item id="vaca" src="./modelos/vaca.glb"></a-asset-item>
+        </a-assets>
+        <a-assets>
+            <a-asset-item id="abeja" src="./modelos/bee.glb"></a-asset-item>
+        </a-assets>
+        <a-assets>
+            <a-asset-item id="oso" src="./modelos/oso.glb"></a-asset-item>
+        </a-assets>
+        <a-assets>
+            <a-asset-item id="rex" src="./modelos/rex.glb"></a-asset-item>
+        </a-assets>
+        <a-assets>
+            <a-asset-item id="tiburon" src="./modelos/tiburon.glb"></a-asset-item>
+        </a-assets>
+        <!-- Marcadores -->
+        <a-marker type='pattern' url='marcadores/pattern-vaca.patt' id='vaca' vaca>
+            <a-entity gltf-model="#vaca" scale="0.3 0.3 0.3" rotation="180 90 -90"
+                animation="property: rotation; to:-180 90 -90; dur: 5000; easing: linear; loop: true">
+                <a-light type="ambient" color="#555"></a-light>
+                <a-light type="point" color="white" position="5 5 0" intensity="1"></a-light>
+            </a-entity>
+        </a-marker>
+        <a-marker type='pattern' url='marcadores/pattern-abeja.patt' id='abeja' abeja>
+            <a-entity gltf-model="#abeja" scale="0.1 0.1 0.1" rotation="180 90 -90" animation="property: rotation; to:-180 90 -90; dur: 5000; easing: linear; loop: true">
+                <a-light type="ambient" color="#FFF"></a-light>
+                <a-light type="point" color="white" position="5 5 0" intensity="1"></a-light>
+            </a-entity>
+        </a-marker>
+        <a-marker type='pattern' url='marcadores/pattern-oso.patt' id='oso' oso>
+            <a-entity gltf-model="#oso" scale="8.0 8.0 8.0" rotation="180 90 -90" animation="property: rotation; to:-180 90 -90; dur: 5000; easing: linear; loop: true">
+                <a-light type="ambient" color="#FFF"></a-light>
+                <a-light type="point" color="white" position="5 5 0" intensity="1"></a-light>
+            </a-entity>
+        </a-marker>
+        <a-marker type='pattern' url='marcadores/pattern-rex.patt' id='rex' rex>
+            <a-entity gltf-model="#rex" scale="0.2 0.2 0.2" rotation="180 90 -90" animation="property: rotation; to:-180 90 -90; dur: 5000; easing: linear; loop: true">
+                <a-light type="ambient" color="#FFF"></a-light>
+                <a-light type="point" color="white" position="5 5 0" intensity="1"></a-light>
+            </a-entity>
+        </a-marker>
+        <a-marker type='pattern' url='marcadores/pattern-tiburon.patt' id='tiburon' tiburon>
+            <a-entity gltf-model="#tiburon" scale="0.15 0.15 0.15" rotation="180 90 -90" animation="property: rotation; to:-180 90 -90; dur: 5000; easing: linear; loop: true">
+                <a-light type="ambient" color="#FFF"></a-light>
+                <a-light type="point" color="white" position="5 5 0" intensity="1"></a-light>
+            </a-entity>
+        </a-marker>
+        <a-entity camera></a-entity>
+    </a-scene>
+  </body>
+</html>
