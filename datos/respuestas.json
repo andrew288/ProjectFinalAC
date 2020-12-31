@@ -1,0 +1,139 @@
+[
+    {
+        "tema":"animales",
+        "items":[
+            {
+                "item":"vaca",
+                "respuestas":[
+                    {
+                        "puntaje":100,
+                        "respuesta":"vaca",
+                        "cercanas":["becerra","vaquilla"]
+                    },
+                    {
+                        "puntaje":100,
+                        "respuesta":"leche",
+                        "cercanas":["lactosa","cuajo"]
+                    },
+                    {
+                        "puntaje":300,
+                        "respuesta":"Holstein",
+                        "cercanas":["vaca frisona"]
+                    },
+                    {
+                        "puntaje":250,
+                        "respuesta":"India",
+                        "cercanas": ["Republica de la India"]
+                    }
+                ]
+            },
+            {
+                "item":"tiburon",
+                "respuestas":[
+                    {
+                        "puntaje":100,
+                        "respuesta":"tiburon",
+                        "cercanas":["escualo","marrajo"]
+                    },
+                    {
+                        "puntaje":200,
+                        "respuesta":"tiburon blanco",
+                        "cercanas":["jaqueton"]
+                    },
+                    {
+                        "puntaje":100,
+                        "respuesta":"reproduccion ovipara",
+                        "cercanas":["ovipara","oviparidad"]
+                    },
+                    {
+                        "puntaje":250,
+                        "respuesta":"tiburon mako de aleta corta",
+                        "cercanas":["tiburon mako"]
+                    }
+                ]
+            },
+            {
+                "item":"oso",
+                "respuestas":[
+                    {
+                        "puntaje":100,
+                        "respuesta":"oso",
+                        "cercanas":["plantigrado","osezno"]
+                    },
+                    {
+                        "puntaje":250,
+                        "respuesta":"oso de anteojos",
+                        "cercanas":["ukukus","ucamaris","isnachis"]
+                    },
+                    {
+                        "puntaje":250,
+                        "respuesta":"oso panda",
+                        "cercanas":["panda gigante"]
+                    },
+                    {
+                        "puntaje":250,
+                        "respuesta":"oso polar",
+                        "cercanas":["oso blanco"]
+                    }
+                ]
+            },
+            {
+                "item":"abeja",
+                "respuestas":[
+                    {
+                        "puntaje":100,
+                        "respuesta":"abeja",
+                        "cercanas":["abeja domestica"]
+                    },
+                    {
+                        "puntaje":150,
+                        "respuesta":"una",
+                        "cercanas":["1"]
+                    },
+                    {
+                        "puntaje":150,
+                        "respuesta":"miel",
+                        "cercanas":["jalea real"]
+                    },
+                    {
+                        "puntaje":250,
+                        "respuesta":"zangano",
+                        "cercanas":["abejas machos"]
+                    }
+                ]
+            },
+            {
+                "item":"dinosaurio",
+                "respuestas":[
+                    {
+                        "puntaje":100,
+                        "respuesta":"dinosaurio",
+                        "cercanas":["lagartos gigantes"]
+                    },
+                    {
+                        "puntaje":250,
+                        "respuesta":"espinosaurio",
+                        "cercanas":["spinosaurus"]
+                    },
+                    {
+                        "puntaje":250,
+                        "respuesta":"patagotitan",
+                        "cercanas":["patagotitan mayorum"]
+                    },
+                    {
+                        "puntaje":250,
+                        "respuesta":"hace 60 millones de años",
+                        "cercanas":["60 millones"]
+                    }
+                ]
+            }
+        ]
+
+    },
+    {
+        "tema":"flora",
+        "items":[
+
+        ]
+    }
+]

@@ -1,0 +1,119 @@
+[
+    {
+        "tema":"animales",
+        "items":[
+            {
+                "item":"vaca",
+                "preguntas":[
+                    {
+                        "puntaje":100,
+                        "pregunta":"¿Como se llama este animal?"
+                    },
+                    {
+                        "puntaje":100,
+                        "pregunta":"¿Que productos lacteos se elaboran en base a la leche?"
+                    },
+                    {
+                        "puntaje":300,
+                        "pregunta":"¿Que raza de vaca son las mejores productoras de leche?"
+                    },
+                    {
+                        "puntaje":250,
+                        "pregunta":"¿Que pais tiene la mayor cantidad de vacas en el mundo?"
+                    }
+                ]
+            },
+            {
+                "item":"tiburon",
+                "preguntas":[
+                    {
+                        "puntaje":100,
+                        "pregunta":"¿Como se llama este animal?"
+                    },
+                    {
+                        "puntaje":200,
+                        "pregunta":"¿Cual es la especie de tiburon mas peligrosa?"
+                    },
+                    {
+                        "puntaje":100,
+                        "pregunta":"¿Que tipo de reproduccion tienen los tiburones?"
+                    },
+                    {
+                        "puntaje":250,
+                        "pregunta":"¿Cual es la especie de tiburon mas veloz?"
+                    }
+                ]
+            },
+            {
+                "item":"oso",
+                "preguntas":[
+                    {
+                        "puntaje":100,
+                        "pregunta":"¿Como se llama este animal?"
+                    },
+                    {
+                        "puntaje":250,
+                        "pregunta":"¿Que especie de oso habita en Perú?"
+                    },
+                    {
+                        "puntaje":250,
+                        "pregunta":"¿Que especie de oso habita en China?"
+                    },
+                    {
+                        "puntaje":250,
+                        "pregunta":"¿Que especie de oso habita en la zona Ártica?"
+                    }
+                ]
+            },
+            {
+                "item":"abeja",
+                "preguntas":[
+                    {
+                        "puntaje":100,
+                        "pregunta":"¿Como se llama este animal?"
+                    },
+                    {
+                        "puntaje":150,
+                        "pregunta":"¿Cuantas abejas reinas hay en una colmena?"
+                    },
+                    {
+                        "puntaje":150,
+                        "pregunta":"¿Que alimento producen las abejas?"
+                    },
+                    {
+                        "puntaje":250,
+                        "pregunta":"¿Como se llama a la abeja macho?"
+                    }
+                ]
+            },
+            {
+                "item":"dinosaurio",
+                "preguntas":[
+                    {
+                        "puntaje":100,
+                        "pregunta":"¿Como se llama este animal?"
+                    },
+                    {
+                        "puntaje":250,
+                        "pregunta":"¿Como se llamaba al dinosaurio más peligroso?"
+                    },
+                    {
+                        "puntaje":250,
+                        "pregunta":"¿Como se llamaba al dinosaurio mas grande?"
+                    },
+                    {
+                        "puntaje":250,
+                        "pregunta":"¿Hace cuanto tiempo se extinguieron los dinosaurios?"
+                    }
+                ]
+            }
+        ]
+
+    },
+    {
+        "tema":"fauna",
+        "items":[
+
+        ]
+    }
+]

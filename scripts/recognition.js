@@ -1,10 +1,8 @@
-
 const btnStartRecord = document.getElementById('btnStartRecord');
 const btnStopRecord = document.getElementById('btnStopRecord');
 const texto = document.getElementById('texto');
-
 let recognition = new webkitSpeechRecognition();
-recognition.lang = "es-ES";
+recognition.lang = "es-PE";
 recognition.continuous = true;
 recognition.interimResults = false;
 
@@ -20,9 +18,9 @@ recognition.onerror = (event) =>{
     console.log(event.error);   
 }
 btnStartRecord.addEventListener('click', () =>{
+    texto.value="";
     recognition.start();
 })
-
 btnStopRecord.addEventListener('click', () => {
     recognition.abort();
 })
